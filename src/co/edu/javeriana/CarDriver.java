@@ -1,10 +1,9 @@
 package co.edu.javeriana;
 
-public class CarDriver implements Driver{
+public class CarDriver implements Driver {
 
 	@Override
 	public String toDrive() {
-		return "Im driving my car...";
+		return "Im driving my Car...";
 	}
-
 }
