@@ -4,6 +4,11 @@ public class CarDriver implements Driver {
 
 	@Override
 	public String toDrive() {
-		return "Im driving my Car...";
+		return "Im driving my Car...\r\n"
+				+ "  ______\r\n"
+				+ " /|_||_\\`.__\r\n"
+				+ "(   _    _ _\\\r\n"
+				+ "=`-(_)--(_)-'\r\n";
 	}
+
 }
